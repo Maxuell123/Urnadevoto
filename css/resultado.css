@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back img{
+    margin-top: 5px;
+    margin-left: 101px;
+    width: 44px;
+    position: absolute;
+    transform: rotate(177deg);
+}
+.image img{
+    position: absolute;
+    top: 20%;
+    right: 19%;
+}
+
+#piechart_3d {
+    margin-top: 100px;
+    margin-left: 20%;
+    border-radius: 30px;
+    box-shadow: 0px 2px 20px 0 #575555;
+    
+}
+
+h1{
+    background: #2d2d2d;
+    border-bottom: 1px solid #7cffd4;
+    box-shadow: 0px 8px 5px 0px #00000033;
+    text-align: center;
+    padding: 8px;
+    font-family: sans-serif;
+    color: rgb(74 188 150);
+    text-transform: uppercase;
+    margin: 0 auto;	
+}
+
+@media (max-width: 1268px) {
+    #piechart_3d {
+        margin-top: 50px;
+        margin-left: 1%;
+        border-radius: 60px;
+        box-shadow: 0px 2px 20px 0 #575555;
+        
+    }
+    .image img{
+        position: absolute;
+        top: 39%;
+        right: -8%;
+    }
+}

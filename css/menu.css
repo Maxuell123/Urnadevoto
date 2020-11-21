@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    width: 100%;
+    background: #0c0c0c;
+    display: inline-block;
+    border-bottom: 1px solid #0a0a0a;
+    box-shadow: 0px 3px 12px 0 #0f0f0f;
+    z-index: 100;
+    margin-bottom: -4px;
+}
+.menu img{
+	
+
+    position: absolute;
+    border-radius: 0 0 5em 5em;
+    border-bottom: 1px solid #b8fff4;
+    margin: 0px 16px;
+	
+}
+.menuvotar img{
+    position: absolute;
+    margin: 23px 50px;
+}
+.menu ul{
+    display: inline-block;
+    list-style: none;
+    float: right;
+    padding: 5px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    font-size: 18px;
+    transition: .2s;
+    max-width: 600;
+    font-family: "Poppins", sans-serif;
+}
+.menu ul li a:hover{
+    color:  #11bded;
+}
+
+@media (max-width: 768px) {
+	
+	.menu img {
+    background: #2e9572;
+    position: absolute;
+    border-radius: 5em;
+    box-shadow: 0px 0px 6px 0px #00000033;
+    padding: 4px;
+    border-bottom: 1px solid #b8fff4;
+	
+	
+	
+}
+	
+	.menu ul li a {
+    border-right: 0px solid black !important;
+
+}
+	
+}
